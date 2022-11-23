@@ -20,7 +20,7 @@ ingredients.forEach(element => {
   const ingredient = document.createElement("li");
   ingredient.textContent = element;
   ingredient.classList = "item";
-  arr.push(ingredient)
+  arr.push(ingredient);
 
 });
 

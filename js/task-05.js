@@ -4,7 +4,7 @@
 const refs = {
   inputVal: document.querySelector('#name-input'),
   outputVal: document.querySelector('#name-output'),
-}
+};
 
 refs.inputVal.addEventListener("input", (event) => {
   

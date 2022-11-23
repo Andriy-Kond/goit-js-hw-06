@@ -30,12 +30,4 @@ function dataSend(event) {
   console.log("password is:", password.value);
   console.log("email is:", email.value);
   event.currentTarget.reset(); // скидає всі поля форми (="")
-};
-  
-
-
-
-
-
-
-
+}

@@ -10,9 +10,9 @@ const refs = {
   validationInput: document.querySelector("#validation-input"),
   borderValid: document.querySelector("#validation-input.valid"),
   borderInvalid: document.querySelector("#validation-input.invalid"),
-}
+};
 
-refs.validationInput.addEventListener('blur', () => { 
+refs.validationInput.addEventListener('blur', () => {
   //  if (Number(refs.validationInput.value.length) === Number(refs.validationInput.dataset.length)) - в цьому прикладі можна і без Number у value.length
   if (refs.validationInput.value.length === Number(refs.validationInput.dataset.length)) {
     refs.validationInput.classList.remove("invalid");
@@ -21,5 +21,5 @@ refs.validationInput.addEventListener('blur', () => {
   else {
     refs.validationInput.classList.remove("valid");
     refs.validationInput.classList.add("invalid");
-  } 
-})
+  }
+});

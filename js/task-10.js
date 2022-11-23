@@ -69,7 +69,7 @@ function styles(arr) {
 }
 
 function destroyBoxes() {
-  console.log("очищаю вміст div#boxes")
+  console.log("очищаю вміст div#boxes");
   boxesEl.innerHTML = "";
 }
 
@@ -90,4 +90,3 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
-

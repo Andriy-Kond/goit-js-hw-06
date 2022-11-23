@@ -12,7 +12,7 @@ const refs = {
   btnDecr: document.querySelector('[data-action="decrement"]'),
   btnIncr: document.querySelector('[data-action="increment"]'),
   value: document.querySelector('#value'),
-}
+};
 
 let counterValue = 0;
 function render() {

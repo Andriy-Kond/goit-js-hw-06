@@ -14,7 +14,7 @@ const refs = {
   changeColorBtn: document.querySelector("button.change-color"),
   spanColor: document.querySelector("span.color"),
   body: document.querySelector("body"),
-}
+};
 
 function changeColorFn() {
   const color = getRandomHexColor();

@@ -28,7 +28,7 @@ const array = images
   .map((image) => `<li><img src="${image.url}" alt="${image.alt}"></li>`)
   .join("");
 
-list.insertAdjacentHTML("afterbegin", array)
+list.insertAdjacentHTML("afterbegin", array);
 
   
 list.style.display = "flex";
@@ -39,7 +39,7 @@ list.style.gap = "20px";
 const img = document.querySelectorAll(".gallery img");
 img.forEach(elem => {
   elem.style.width = "250px";
-})
+});
 
 
 
